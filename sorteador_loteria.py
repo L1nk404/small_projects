@@ -119,16 +119,16 @@ while LOOP:
     if LOOP == False:  #Stop de program 
         break
     
-    quantity_of_numbers_to_sorted = input(
+    quantity_of_numbers_to_be_drawed = input(
         'Quantos números deseja sortear: '
     )
     print()
-    int_quantity_of_numbers_to_sorted = try_int_or_exit(
-        quantity_of_numbers_to_sorted
+    int_quantity_of_numbers_to_be_drawed = try_int_or_exit(
+        quantity_of_numbers_to_be_drawed
     )
     
     print('Os números sorteados são: \n')
     drawer_ex(
         int_number_of_lists_to_be_generated,
-        int_quantity_of_numbers_to_sorted
+        int_quantity_of_numbers_to_be_drawed
         )
