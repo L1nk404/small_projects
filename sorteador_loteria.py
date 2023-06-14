@@ -46,6 +46,7 @@ def drawer():
 
         # For aestetic reasons, lets turn the set into a list. (I really prefer '[]' instead '{}').
         drawn_numbers_list = list(drawn_numbers_set)
+        drawn_numbers_list.sort()
         return drawn_numbers_list
         
     return random_number_list_generator
